@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Test
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[{"name":"Intro","value":{"id":"Intro","textLines":["\u0412\u0435\u043b\u0438\u0447\u0438\u0435
+      \u043d\u0435\u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e. \u041d\u043e
+      \u043e\u0431\u044c\u044f\u0441\u043d\u0438\u043c\u043e. ","\u0412\u0435\u043b\u0438\u0447\u0438\u0435
+      \u043d\u0435 \u043e\u0431\u044c\u044f\u0441\u043d\u0438\u043c\u043e. \u041d\u043e
+      \u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e."],"entry":"Tulip","default_transition_id":null,"$type":"EntryNode"},"typeHandle":{"Identification":"EntryNode,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":300.2155,"y":-2.000401},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-160.0,"y":-172.0},"guid":"8c3af49a-67a5-439a-ac83-46e95ff3703f","$version":"A","$type":"Unity.VisualScripting.Start"},{"defaultValues":{},"position":{"x":-16.0,"y":-64.0},"guid":"6ddc8283-3929-49f7-98e7-fd9571659e62","$version":"A","$type":"Unity.VisualScripting.CreateDictionary","$id":"14"},{"defaultValues":{},"position":{"x":224.0,"y":-86.0},"guid":"32d16e82-b8e5-4174-b30b-6fab4b8e868d","$version":"A","$type":"Unity.VisualScripting.AddDictionaryItem","$id":"16"},{"specifyFallback":false,"kind":"Graph","defaultValues":{"name":{"$content":"Intro","$type":"System.String"}},"position":{"x":16.0,"y":69.0},"guid":"a2ed0fe2-1edd-4044-85da-a50648ba1b09","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"18"},{"sourceUnit":{"$ref":"14"},"sourceKey":"dictionary","destinationUnit":{"$ref":"16"},"destinationKey":"dictionaryInput","guid":"5a6284f2-4376-4433-8a97-1fcfff1e810e","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"value","destinationUnit":{"$ref":"16"},"destinationKey":"value","guid":"32fac628-e421-4d31-9a3c-856ef2a0cf4f","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
